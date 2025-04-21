@@ -211,61 +211,115 @@ const ProjectsSection = () => {
       description: (
         <div className="flex w-full md:pl-4 flex-col">
           <p className="mt-4 text-primary-500">
-            Design Company Portfolio Website
+            Organizations Management System
           </p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              This portfolio website showcases the services and expertise of a
-              design company, offering a sleek and visually appealing platform
-              for potential clients to explore their work and connect via social
-              media.
+              A powerful web-based platform designed to streamline the oversight
+              and coordination of organizations and their projects.
             </li>
             <li>
-              The website is designed with a strong focus on aesthetics and user
-              experience, ensuring that visitors can easily navigate and
-              discover the company&apos;s offerings.
+              This system enables centralized administration while also
+              empowering each organization with the tools needed to manage their
+              own initiatives, address user feedback, and evaluate public
+              engagement through surveys and suggestions.
+            </li>
+            <li>
+              With an intuitive interface, role-based access, and real-time
+              updates, the platform supports transparent project tracking and
+              fosters collaborative development between organizations and
+              communities.
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Service Showcase: The website highlights the company&apos;s range
-              of design services in a visually engaging format.
+              <p>Role-Based Access:</p>
+              <p className="ml-16 my-2">
+                Admin: Full control to manage all organizations and their
+                projects, as well as view overall system statistics.
+              </p>
+              <p className="ml-16 my-2">
+                Organizations: Access to manage their own projects, view
+                user-submitted feedback, and analyze survey results.
+              </p>
             </li>
             <li>
-              Social Media Integration: Direct links to the company’s social
-              media accounts, allowing visitors to follow and connect with the
-              brand.
+              <p>Organization & Project Management:</p>
+              <p className="ml-16 my-2">
+                Admins and organization accounts can add, edit, and delete
+                organizations or projects.
+              </p>
+              <p className="ml-16 my-2">
+                View detailed information about each project and organization in
+                an organized layout.
+              </p>
             </li>
             <li>
-              Responsive Design: Optimized for both desktop and mobile devices,
-              ensuring a seamless experience across different screen sizes.
+              Feedback & Community Engagement: Organizations can view
+              user-submitted problems, suggestions, and surveys specific to
+              their projects, supporting responsive and people-centered
+              development.
+            </li>
+            <li>
+              Statistics Dashboard: Admins have access to visual insights and
+              key metrics across all organizations and projects for informed
+              decision-making.
+            </li>
+            <li>
+              Responsive Interface: Seamlessly accessible across desktops,
+              tablets, and mobile devices.
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Bootstrap 5: Provides a responsive, mobile-first layout with
-              built-in components and a modern design.
+              React.js: Powers the dynamic and interactive front-end interface.
             </li>
             <li>
-              HTML & CSS: Customizes the structure and style of the website,
-              creating a unique and visually appealing design.
+              Tailwind CSS: Enables rapid UI development with utility-first
+              responsive design.
             </li>
             <li>
-              Beautiful Design: Focused on clean, modern aesthetics that reflect
-              the professionalism of the design company.
+              Zustand: Lightweight state management for improved scalability and
+              performance.
+            </li>
+            <li>Axios: Simplifies API requests and data fetching.</li>
+            <li>
+              React Hook Form: Provides performant and accessible form handling.
+            </li>
+            <li>
+              React Router DOM: Handles smooth, single-page application routing.
+            </li>
+            <li>
+              React Icons: Enhances user experience with visually intuitive
+              iconography.
+            </li>
+            <li>
+              <p>Built-in React Hooks:</p>
+              <p className="ml-16">
+                useRef: For DOM access and form management.
+              </p>
+              <p className="ml-16">
+                useState, useEffect, useMemo, useCallback: Manage lifecycle,
+                state, and performance optimization.
+              </p>
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Challenges:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Aesthetic Consistency: Ensuring the design is both visually
-              appealing and functional across various devices and screen sizes.
+              Implementing secure, scalable role-based access that distinguishes
+              admin and organization capabilities without complexity.
             </li>
             <li>
-              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
-              responsive experience without sacrificing design quality.
+              Managing a dynamic flow of community feedback (problems,
+              suggestions, and surveys) per project while maintaining clarity
+              and organization.
+            </li>
+            <li>
+              Ensuring high usability and accessibility across multiple roles
+              and platforms.
             </li>
           </ul>
         </div>
