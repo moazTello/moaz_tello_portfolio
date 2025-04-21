@@ -19,19 +19,21 @@ const AboutSection = () => {
               <li>Neural Networks</li>
               <li>Machine Learning</li>
               <li>React.js</li>
+              <li>React Native</li>
               <li>Node.js</li>
-              <li>Express.js</li>
             </ul>
             <ul className="list-disc pl-2 mr-8">
+              <li>Express.js</li>
+              <li>Next.js</li>
               <li>MongoDB</li>
               <li>PostgreSQL</li>
-              <li>Next.js</li>
               <li>Redux</li>
+              <li>Zustand</li>
               <li>HTML</li>
-              <li>CSS</li>
             </ul>
           </div>
           <ul className="list-disc pl-2 mr-8">
+            <li>CSS</li>
             <li>MySQL</li>
             <li>Java Script</li>
             <li>Sequelize</li>
@@ -99,7 +101,12 @@ const AboutSection = () => {
           <li className="mt-5">
             <p className="text-lg font-semibold">React.js Developer</p>
             <p className="text-md text-primary-500 font-bold">Orkabit</p>
-            <p className="text-sm text-[#ADB7BE]">2023 - present</p>
+            <p className="text-sm text-[#ADB7BE]">2023 - 2025</p>
+          </li>
+          <li className="mt-5">
+            <p className="text-lg font-semibold">React.js, React Native, Next.js</p>
+            <p className="text-md text-primary-500 font-bold">Totol Media</p>
+            <p className="text-sm text-[#ADB7BE]">2025 - Present</p>
           </li>
         </ul>
       ),

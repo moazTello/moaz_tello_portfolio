@@ -8,6 +8,346 @@ const ProjectsSection = () => {
   const ProjectData = [
     {
       id: 1,
+      title: "Green Syria Dashboard",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            Plant Stores, Volunteer and Works Management Dashboard
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A comprehensive web-based dashboard designed to facilitate the
+              management of environmental and volunteer related activities
+              across various plant stores and institutions.
+            </li>
+            <li>
+              This platform empowers admins and assistant admins to efficiently
+              oversee content, volunteers, tree assignments, and institutional
+              collaborations while ensuring an intuitive and secure user
+              experience.
+            </li>
+            <li>
+              The dashboard features a clean, responsive interface and
+              role-based access control, allowing only designated users to
+              perform sensitive actions such as editing data or viewing
+              analytics.
+            </li>
+            <li>
+              It streamlines workflows and promotes environmental initiatives
+              through structured management tools.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            {/* <li>
+              Service Showcase: The website highlights the company&apos;s range
+              of design services in a visually engaging format.
+            </li> */}
+            <li>
+              Role-Based Access Control: Admins have full control, including
+              access to system statistics, assistant admin management, and
+              institution handling, while assistant admins can manage content
+              and volunteers.
+            </li>
+            <li>
+              Content Management: Easily add, edit, or delete articles, article
+              categories, volunteers, plant stores, and trees.
+            </li>
+            <li>
+              Tree Assignment: Assign trees to volunteers and track their
+              contributions.
+            </li>
+            <li>
+              Request Management: View and process join requests from new users.
+            </li>
+            <li>
+              Institutional Management: Admins can add and update institutions
+              and track associated activities.
+            </li>
+            <li>
+              Statistics Dashboard: Admin-only access to key insights and visual
+              data for strategic decision-making.
+            </li>
+            <li>
+              Responsive Design: Optimized for desktop and mobile screens to
+              ensure accessibility from any device.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Powers the dynamic and interactive front-end interface.
+            </li>
+            <li>
+              Tailwind CSS: Enables rapid UI development with utility-first
+              responsive design.
+            </li>
+            <li>
+              Zustand: Lightweight state management for improved scalability and
+              performance.
+            </li>
+            <li>Axios: Simplifies API requests and data fetching.</li>
+            <li>
+              React Hook Form: Provides performant and accessible form handling.
+            </li>
+            <li>
+              React Router DOM: Handles smooth, single-page application routing.
+            </li>
+            <li>
+              React Icons: Enhances user experience with visually intuitive
+              iconography.
+            </li>
+            <li>
+              <p>Built-in React Hooks:</p>
+              <p className="ml-16">
+                useRef: For DOM access and form management.
+              </p>
+              <p className="ml-16">
+                useState, useEffect, useMemo, useCallback: Manage lifecycle,
+                state, and performance optimization.
+              </p>
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Challenges:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Ensuring seamless role-based access and permissions without
+              compromising security or usability.
+            </li>
+            <li>
+              Maintaining smooth and error-free CRUD operations across a wide
+              range of data types and user interactions.
+            </li>
+            <li>
+              Creating a responsive and visually consistent UI using Tailwind
+              while preserving accessibility and multilingual readiness.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Note:</p>
+          <p className="px-2 mt-2 ml-2">
+            Send me a Message if you want to test the project, I will send you
+            password and a valid email for that
+          </p>
+        </div>
+      ),
+      image: "/images/projects/green_syria.png",
+      tag: ["All", "Web", "protect"],
+      // gitUrl: "https://github.com/moazTello/space_time",
+      previewUrl: "https://moaztello.github.io/green_syria/",
+    },
+    {
+      id: 2,
+      title: "Green Syria App",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            Design Company Portfolio Website
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This portfolio website showcases the services and expertise of a
+              design company, offering a sleek and visually appealing platform
+              for potential clients to explore their work and connect via social
+              media.
+            </li>
+            <li>
+              The website is designed with a strong focus on aesthetics and user
+              experience, ensuring that visitors can easily navigate and
+              discover the company&apos;s offerings.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Service Showcase: The website highlights the company&apos;s range
+              of design services in a visually engaging format.
+            </li>
+            <li>
+              Social Media Integration: Direct links to the company’s social
+              media accounts, allowing visitors to follow and connect with the
+              brand.
+            </li>
+            <li>
+              Responsive Design: Optimized for both desktop and mobile devices,
+              ensuring a seamless experience across different screen sizes.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Bootstrap 5: Provides a responsive, mobile-first layout with
+              built-in components and a modern design.
+            </li>
+            <li>
+              HTML & CSS: Customizes the structure and style of the website,
+              creating a unique and visually appealing design.
+            </li>
+            <li>
+              Beautiful Design: Focused on clean, modern aesthetics that reflect
+              the professionalism of the design company.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Challenges:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Aesthetic Consistency: Ensuring the design is both visually
+              appealing and functional across various devices and screen sizes.
+            </li>
+            <li>
+              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
+              responsive experience without sacrificing design quality.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/space_time.png",
+      tag: ["All", "Mobile", "protect"],
+      // gitUrl: "https://github.com/moazTello/space_time",
+      previewUrl: "https://moaztello.github.io/green_syria/",
+    },
+    {
+      id: 3,
+      title: "Rasheed Dashboard",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            Design Company Portfolio Website
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This portfolio website showcases the services and expertise of a
+              design company, offering a sleek and visually appealing platform
+              for potential clients to explore their work and connect via social
+              media.
+            </li>
+            <li>
+              The website is designed with a strong focus on aesthetics and user
+              experience, ensuring that visitors can easily navigate and
+              discover the company&apos;s offerings.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Service Showcase: The website highlights the company&apos;s range
+              of design services in a visually engaging format.
+            </li>
+            <li>
+              Social Media Integration: Direct links to the company’s social
+              media accounts, allowing visitors to follow and connect with the
+              brand.
+            </li>
+            <li>
+              Responsive Design: Optimized for both desktop and mobile devices,
+              ensuring a seamless experience across different screen sizes.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Bootstrap 5: Provides a responsive, mobile-first layout with
+              built-in components and a modern design.
+            </li>
+            <li>
+              HTML & CSS: Customizes the structure and style of the website,
+              creating a unique and visually appealing design.
+            </li>
+            <li>
+              Beautiful Design: Focused on clean, modern aesthetics that reflect
+              the professionalism of the design company.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Challenges:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Aesthetic Consistency: Ensuring the design is both visually
+              appealing and functional across various devices and screen sizes.
+            </li>
+            <li>
+              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
+              responsive experience without sacrificing design quality.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/rasheed.png",
+      tag: ["All", "Web", "protect"],
+      // gitUrl: "https://github.com/moazTello/space_time",
+      previewUrl: "https://moaztello.github.io/green_syria/",
+    },
+    {
+      id: 4,
+      title: "Rasheed App",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            Design Company Portfolio Website
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This portfolio website showcases the services and expertise of a
+              design company, offering a sleek and visually appealing platform
+              for potential clients to explore their work and connect via social
+              media.
+            </li>
+            <li>
+              The website is designed with a strong focus on aesthetics and user
+              experience, ensuring that visitors can easily navigate and
+              discover the company&apos;s offerings.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Service Showcase: The website highlights the company&apos;s range
+              of design services in a visually engaging format.
+            </li>
+            <li>
+              Social Media Integration: Direct links to the company’s social
+              media accounts, allowing visitors to follow and connect with the
+              brand.
+            </li>
+            <li>
+              Responsive Design: Optimized for both desktop and mobile devices,
+              ensuring a seamless experience across different screen sizes.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Bootstrap 5: Provides a responsive, mobile-first layout with
+              built-in components and a modern design.
+            </li>
+            <li>
+              HTML & CSS: Customizes the structure and style of the website,
+              creating a unique and visually appealing design.
+            </li>
+            <li>
+              Beautiful Design: Focused on clean, modern aesthetics that reflect
+              the professionalism of the design company.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Challenges:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Aesthetic Consistency: Ensuring the design is both visually
+              appealing and functional across various devices and screen sizes.
+            </li>
+            <li>
+              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
+              responsive experience without sacrificing design quality.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/space_time.png",
+      tag: ["All", "Mobile", "Download"],
+      // gitUrl: "https://github.com/moazTello/space_time",
+      previewUrl: "https://moaztello.github.io/green_syria/",
+      fileName: "rashed_test_server.apk",
+    },
+    {
+      id: 5,
       title: "WAYGO",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -102,7 +442,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/waygo_page",
     },
     {
-      id: 2,
+      id: 6,
       title: "YAMAN CACHIER",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -187,12 +527,12 @@ const ProjectsSection = () => {
         </div>
       ),
       image: "/images/projects/yaman_cashier.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Web", "protect"],
       gitUrl: "https://github.com/moazTello/yaman_project",
       previewUrl: "https://moaztello.github.io/yaman_project/",
     },
     {
-      id: 3,
+      id: 7,
       title: "TELLO TOK",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -273,12 +613,13 @@ const ProjectsSection = () => {
         </div>
       ),
       image: "/images/projects/tello_app.png",
-      tag: ["All", "Mobile"],
+      tag: ["All", "Mobile", "Download"],
       gitUrl: "/",
       previewUrl: "/",
+      fileName: "Tello.apk",
     },
     {
-      id: 4,
+      id: 8,
       title: "MOAZ CHAT APP",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -360,7 +701,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello-chat-app.onrender.com/",
     },
     {
-      id: 5,
+      id: 9,
       title: "WASSELNY",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -462,7 +803,7 @@ const ProjectsSection = () => {
       previewUrl: "/",
     },
     {
-      id: 6,
+      id: 10,
       title: "FUSHA",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -555,7 +896,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/demo/",
     },
     {
-      id: 7,
+      id: 11,
       title: "SPACE TIME",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -639,7 +980,7 @@ const ProjectsSection = () => {
     animate: { scale: 1, y: 0, opacity: 1 },
   };
   return (
-    <section>
+    <section className="flex flex-col items-center">
       <h2 className="text-center text-4xl font-bold text-white mt-4 ">
         My Projects
       </h2>
@@ -684,6 +1025,7 @@ const ProjectsSection = () => {
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
               tag={project.tag}
+              fileName={project?.fileName}
             />
           </motion.li>
         ))}
