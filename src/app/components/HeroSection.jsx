@@ -72,14 +72,14 @@ const HeroSection = () => {
                   ),
                 1500,
                 () => setTextColor("text-white"),
-                "UI/UX Designer",
-                () =>
-                  setTextColor(
-                    // "text-transparent bg-clip-text bg-gradient-to-r from-primary-200 via-primary-500 to-primary-700"
-                    "text-primary-500"
-                  ),
-                1500,
-                () => setTextColor("text-white"),
+                // "UI/UX Designer",
+                // () =>
+                //   setTextColor(
+                //     // "text-transparent bg-clip-text bg-gradient-to-r from-primary-200 via-primary-500 to-primary-700"
+                //     "text-primary-500"
+                //   ),
+                // 1500,
+                // () => setTextColor("text-white"),
               ]}
               wrapper="span"
               speed={200}
