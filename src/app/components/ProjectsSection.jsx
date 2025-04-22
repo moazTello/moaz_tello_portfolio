@@ -184,7 +184,7 @@ const ProjectsSection = () => {
                 View the tree list and assign trees to themselves.
               </p>
               <p className="ml-16 my-2">
-                View assigned trees, update their status to "done", or choose to
+                View assigned trees, update their status to &ldquo;done&ldquo;, or choose to
                 accept or reject trees assigned by plant stores.
               </p>
               <p className="ml-16 my-2">
