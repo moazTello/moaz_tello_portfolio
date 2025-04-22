@@ -140,70 +140,146 @@ const ProjectsSection = () => {
       title: "Green Syria App",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
-          <p className="mt-4 text-primary-500">
-            Design Company Portfolio Website
-          </p>
+          <p className="mt-4 text-primary-500">Green Syria Mobile App</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              This portfolio website showcases the services and expertise of a
-              design company, offering a sleek and visually appealing platform
-              for potential clients to explore their work and connect via social
-              media.
+              Green Syria is a role-based mobile application designed to foster
+              environmental impact through a collaborative ecosystem involving
+              users, volunteers, and plant stores. Built with React Native, the
+              app streamlines the process of identifying areas in need of trees,
+              assigning volunteers, and managing planting activities—empowering
+              communities to actively contribute to urban greening.
             </li>
             <li>
-              The website is designed with a strong focus on aesthetics and user
-              experience, ensuring that visitors can easily navigate and
-              discover the company&apos;s offerings.
+              The platform supports seamless interaction between different
+              roles, ensuring transparency, accountability, and engagement
+              throughout the tree planting lifecycle.
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
+            <li>Multi-Role System</li>
             <li>
-              Service Showcase: The website highlights the company&apos;s range
-              of design services in a visually engaging format.
+              <p>User (No Login Required):</p>
+              <p className="ml-16 my-2">
+                Can submit requests for tree planting by uploading images of
+                locations that need trees (e.g., streets, sidewalks).
+              </p>
+              <p className="ml-16 my-2">
+                Can browse categories of articles, read environmental articles,
+                and view statistics about trees planted, submitted works,
+                volunteers, and plant stores.
+              </p>
+              <p className="ml-16 my-2">
+                Can submit join requests to become a volunteer or plant store.
+              </p>
+              <p className="ml-16 my-2">
+                Access static informational pages: About, Policy, and Terms of
+                Use.
+              </p>
             </li>
             <li>
-              Social Media Integration: Direct links to the company’s social
-              media accounts, allowing visitors to follow and connect with the
-              brand.
+              <p>Volunteer (Login Required):</p>
+              <p className="ml-16 my-2">
+                View the tree list and assign trees to themselves.
+              </p>
+              <p className="ml-16 my-2">
+                View assigned trees, update their status to "done", or choose to
+                accept or reject trees assigned by plant stores.
+              </p>
+              <p className="ml-16 my-2">
+                Access their profile, performance rating, and full history of
+                actions and completed tasks.
+              </p>
             </li>
             <li>
-              Responsive Design: Optimized for both desktop and mobile devices,
-              ensuring a seamless experience across different screen sizes.
+              <p>Plant Store (Login Required):</p>
+              <p className="ml-16 my-2">
+                Add new trees to the waiting list or assign them directly to a
+                volunteer.
+              </p>
+              <p className="ml-16 my-2">
+                Manage and track all added trees, including ones specifically
+                linked to their store.
+              </p>
+              <p className="ml-16 my-2">
+                Access a profile page with their rating and a detailed log of
+                all past activity.
+              </p>
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Bootstrap 5: Provides a responsive, mobile-first layout with
-              built-in components and a modern design.
+              eact Native (Expo): Cross-platform app development for iOS and
+              Android with native performance.
+            </li>
+            <li>Expo Router: Simplifies and scales navigation structure.</li>
+            <li>
+              Zustand: Lightweight, scalable state management for fast
+              performance.
+            </li>
+            <li>Axios: Handles API requests securely and efficiently.</li>
+            <li>
+              NativeWind (Tailwind for React Native): Enables clean, responsive
+              UI design with utility-first styling.
             </li>
             <li>
-              HTML & CSS: Customizes the structure and style of the website,
-              creating a unique and visually appealing design.
+              React Native Appwrite: Manages authentication, databases, and
+              role-based access control.
+            </li>
+            <li>Expo Image Picker: Allows users to upload images with ease.</li>
+            <li>
+              Core React Hooks: useState, useEffect, useMemo, useCallback, and
+              useRef for optimal control, performance, and UI logic.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Core Workflows & Functionality:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              🌱 User Flow: Submit tree work requests → Upload location images →
+              View articles and platform stats.
             </li>
             <li>
-              Beautiful Design: Focused on clean, modern aesthetics that reflect
-              the professionalism of the design company.
+              🤝 Volunteer Flow: Browse tree opportunities → Assign tree →
+              Accept/reject → Mark as done → Track progress.
+            </li>
+            <li>
+              🏪 Plant Store Flow: Add/assign trees → Monitor status → Track
+              actions → Engage with volunteers.
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Challenges:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Aesthetic Consistency: Ensuring the design is both visually
-              appealing and functional across various devices and screen sizes.
+              Implementing multi-role login and access control while keeping the
+              UI clean and intuitive.
             </li>
             <li>
-              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
-              responsive experience without sacrificing design quality.
+              Building a real-time tree assignment system that allows both
+              manual and self-assignment.
+            </li>
+            <li>
+              Managing image uploads, status tracking, and action history per
+              role.
+            </li>
+            <li>
+              Supporting guest users with meaningful engagement while
+              incentivizing registration.
             </li>
           </ul>
+          <p className="mt-4 text-slate-100">Note:</p>
+          <p className="px-2 mt-2 ml-2">
+            you can test the app and the dashboard just send me a message to
+            send you a valid email and password for that
+          </p>
         </div>
       ),
       image: "/images/projects/space_time.png",
-      tag: ["All", "Mobile", "protect"],
+      tag: ["All", "Mobile", "Download"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/green_syria/",
+      // previewUrl: "https://moaztello.github.io/green_syria/",
+      fileName: "green_syria_test_server.apk",
     },
     {
       id: 3,
@@ -322,82 +398,132 @@ const ProjectsSection = () => {
               and platforms.
             </li>
           </ul>
+          <p className="mt-4 text-slate-100">Note:</p>
+          <p className="px-2 mt-2 ml-2">
+            Send me a Message if you want to test the project, I will send you
+            password and a valid email for that
+          </p>
         </div>
       ),
       image: "/images/projects/rasheed.png",
       tag: ["All", "Web", "protect"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/green_syria/",
+      previewUrl: "https://moaztello.github.io/rasheed/",
     },
     {
       id: 4,
       title: "Rasheed App",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
-          <p className="mt-4 text-primary-500">
-            Design Company Portfolio Website
-          </p>
+          <p className="mt-4 text-primary-500">Rasheed Mobile App</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              This portfolio website showcases the services and expertise of a
-              design company, offering a sleek and visually appealing platform
-              for potential clients to explore their work and connect via social
-              media.
+              Rasheed is a user-centric mobile application built with React
+              Native, designed to enhance transparency and community engagement
+              between the public and various organizations.
             </li>
             <li>
-              The website is designed with a strong focus on aesthetics and user
-              experience, ensuring that visitors can easily navigate and
-              discover the company&apos;s offerings.
+              The app empowers users to actively participate in the development
+              and improvement of public and private sector projects by
+              submitting surveys, suggestions, and reports on encountered
+              issues.
+            </li>
+            <li>
+              Through a clean interface and streamlined interactions, Rasheed
+              Connect bridges the gap between users and organizations, fostering
+              accountability and collaborative growth.
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Service Showcase: The website highlights the company&apos;s range
-              of design services in a visually engaging format.
+              <p>🏛 Explore Organizations & Projects</p>
+              <p className="ml-16 my-2">
+                View a comprehensive list of registered organizations and their
+                active projects.
+              </p>
+              <p className="ml-16 my-2">
+                Access project details, status, and purpose to stay informed.
+              </p>
             </li>
             <li>
-              Social Media Integration: Direct links to the company’s social
-              media accounts, allowing visitors to follow and connect with the
-              brand.
+              <p>🗳 User Interaction & Feedback</p>
+              <p className="ml-16 my-2">
+                Submit Surveys: Provide structured feedback for each project to
+                support decision-making.
+              </p>
+              <p className="ml-16 my-2">
+                Send Suggestions: Share ideas or improvements related to any
+                organization or project.
+              </p>
+              <p className="ml-16 my-2">
+                Report Problems: Alert organizations to issues with specific
+                projects or operations, promoting real-time responsiveness.
+              </p>
             </li>
             <li>
-              Responsive Design: Optimized for both desktop and mobile devices,
-              ensuring a seamless experience across different screen sizes.
+              <p>📚 Informational Access</p>
+              <p className="ml-16 my-2">
+                View the About section to understand the app&apos;s mission and
+                goals.
+              </p>
+              <p className="ml-16 my-2">
+                Browse Policy and Terms of Use pages for transparency and user
+                trust.
+              </p>
             </li>
           </ul>
           <p className="mt-4 text-slate-100">Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Bootstrap 5: Provides a responsive, mobile-first layout with
-              built-in components and a modern design.
+              React Native (Expo): Delivers a seamless and responsive user
+              experience across mobile platforms.
+            </li>
+            <li>Expo Router: Ensures scalable and intuitive navigation.</li>
+            <li>Zustand: Manages app state with simplicity and efficiency.</li>
+            <li>Axios: Enables fast, secure communication with the backend.</li>
+            <li>NativeWind: Powers modern and consistent UI styling.</li>
+            <li>
+              Appwrite (React Native): Handles user roles and secure data
+              storage.
             </li>
             <li>
-              HTML & CSS: Customizes the structure and style of the website,
-              creating a unique and visually appealing design.
-            </li>
-            <li>
-              Beautiful Design: Focused on clean, modern aesthetics that reflect
-              the professionalism of the design company.
+              React Hooks: useState, useEffect, useMemo, useRef, and useCallback
+              used for optimal state and logic management.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Challenges:</p>
+          <p className="mt-4 text-slate-100">Workflow Overview:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>🔍 Browse organizations and projects.</li>
+            <li>📝 Submit surveys, suggestions, or problem reports.</li>
+            <li>📄 Read platform policies and app information.</li>
+          </ul>
+          <p className="mt-4 text-slate-100">Impact & Purpose:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              Aesthetic Consistency: Ensuring the design is both visually
-              appealing and functional across various devices and screen sizes.
+              Encourages civic participation by giving users a voice in local
+              and national projects.
             </li>
             <li>
-              Responsive Layout: Leveraging Bootstrap 5 to create a smooth,
-              responsive experience without sacrificing design quality.
+              Provides organizations with valuable community insight through
+              real-time feedback.
+            </li>
+            <li>
+              Supports accountability and continuous improvement in project
+              management and service delivery.
             </li>
           </ul>
+          <p className="mt-4 text-slate-100">Note:</p>
+          <p className="px-2 mt-2 ml-2">
+            you can test the app and the dashboard just send me a message to
+            send you a valid email and password for that
+          </p>
         </div>
       ),
       image: "/images/projects/space_time.png",
       tag: ["All", "Mobile", "Download"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/green_syria/",
+      // previewUrl: "https://moaztello.github.io/green_syria/",
       fileName: "rashed_test_server.apk",
     },
     {
