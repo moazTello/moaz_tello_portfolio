@@ -61,7 +61,6 @@ const HeroSection = () => {
                     // "text-transparent bg-clip-text bg-gradient-to-r from-primary-200 via-primary-500 to-primary-700"
                     "text-primary-500"
                   ),
-
                 1500,
                 () => setTextColor("text-white"),
                 "Mobile Developer",
