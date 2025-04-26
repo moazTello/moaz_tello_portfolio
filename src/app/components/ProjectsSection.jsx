@@ -520,7 +520,7 @@ const ProjectsSection = () => {
           </p>
         </div>
       ),
-      image: "/images/projects/space_time.png",
+      image: "/images/projects/rasheed_app.png",
       tag: ["All", "Mobile", "Download"],
       // gitUrl: "https://github.com/moazTello/space_time",
       // previewUrl: "https://moaztello.github.io/green_syria/",
