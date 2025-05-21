@@ -1602,14 +1602,6 @@ const ProjectsSection = () => {
             <li>
               useContext: Ensures efficient state management across components.
             </li>
-            <li>
-              Zustand: Lightweight state management for better scalability and
-              performance.
-            </li>
-            <li>
-              Firebase: Used for backend services, including data storage and
-              authentication.
-            </li>
             <li>Axios: Handles API requests efficiently.</li>
             <li>
               useRef: Facilitates direct DOM manipulation and better handling of
