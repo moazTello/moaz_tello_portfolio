@@ -37,7 +37,7 @@ const ProjectsSection = () => {
               through structured management tools.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             {/* <li>
               Service Showcase: The website highlights the company&apos;s range
@@ -73,7 +73,7 @@ const ProjectsSection = () => {
               ensure accessibility from any device.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React.js: Powers the dynamic and interactive front-end interface.
@@ -156,7 +156,7 @@ const ProjectsSection = () => {
               throughout the tree planting lifecycle.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>Multi-Role System</li>
             <li>
@@ -184,8 +184,8 @@ const ProjectsSection = () => {
                 View the tree list and assign trees to themselves.
               </p>
               <p className="ml-16 my-2">
-                View assigned trees, update their status to &ldquo;done&ldquo;, or choose to
-                accept or reject trees assigned by plant stores.
+                View assigned trees, update their status to &ldquo;done&ldquo;,
+                or choose to accept or reject trees assigned by plant stores.
               </p>
               <p className="ml-16 my-2">
                 Access their profile, performance rating, and full history of
@@ -208,7 +208,7 @@ const ProjectsSection = () => {
               </p>
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               eact Native (Expo): Cross-platform app development for iOS and
@@ -307,7 +307,7 @@ const ProjectsSection = () => {
               communities.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               <p>Role-Based Access:</p>
@@ -347,7 +347,7 @@ const ProjectsSection = () => {
               tablets, and mobile devices.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React.js: Powers the dynamic and interactive front-end interface.
@@ -434,7 +434,7 @@ const ProjectsSection = () => {
               accountability and collaborative growth.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               <p>🏛 Explore Organizations & Projects</p>
@@ -473,7 +473,7 @@ const ProjectsSection = () => {
               </p>
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React Native (Expo): Delivers a seamless and responsive user
@@ -547,7 +547,7 @@ const ProjectsSection = () => {
               preferred travel times, and secure their tickets online.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Bilingual Support: Full support for Arabic and English languages
@@ -566,11 +566,11 @@ const ProjectsSection = () => {
               for easy access from anywhere.
             </li>
             <li>
-              Tech Stack: Built with React.js, ensuring fast rendering, smooth
+              🛠 Tech Stack: Built with React.js, ensuring fast rendering, smooth
               performance.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>React.js: Provides a fast, dynamic user interface.</li>
             <li>
@@ -638,7 +638,7 @@ const ProjectsSection = () => {
               intuitive and responsive interfaces.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Cashbox Management: Users can add cash to the cashbox and charge
@@ -670,7 +670,7 @@ const ProjectsSection = () => {
               to keep inventory data accurate.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>React.js: Provides a fast, dynamic user interface.</li>
             <li>
@@ -727,7 +727,7 @@ const ProjectsSection = () => {
               interaction through video content.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               User Authentication: Users can sign up and sign in to manage their
@@ -755,7 +755,7 @@ const ProjectsSection = () => {
               smooth and engaging user experience.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React Native Expo: Ensures cross-platform compatibility and ease
@@ -816,7 +816,7 @@ const ProjectsSection = () => {
               security, and scalability.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Real-Time Messaging: Users can send and receive messages instantly
@@ -839,7 +839,7 @@ const ProjectsSection = () => {
               is responsive across devices.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React.js: Frontend framework for building a dynamic user
@@ -902,7 +902,7 @@ const ProjectsSection = () => {
               issues.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               User Authentication: Clients, drivers, and admins can sign up and
@@ -936,7 +936,7 @@ const ProjectsSection = () => {
               both clients and drivers.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               React Native: Ensures a smooth and responsive user interface for
@@ -1004,7 +1004,7 @@ const ProjectsSection = () => {
               experience.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Tour Listings: Clients can browse tours to various destinations,
@@ -1025,7 +1025,7 @@ const ProjectsSection = () => {
               integration.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>React.js: Provides a fast and interactive user interface.</li>
             <li>
@@ -1096,7 +1096,7 @@ const ProjectsSection = () => {
               discover the company&apos;s offerings.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Key Features:</p>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Service Showcase: The website highlights the company&apos;s range
@@ -1112,7 +1112,7 @@ const ProjectsSection = () => {
               ensuring a seamless experience across different screen sizes.
             </li>
           </ul>
-          <p className="mt-4 text-slate-100">Tech Stack:</p>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
               Bootstrap 5: Provides a responsive, mobile-first layout with
@@ -1144,6 +1144,500 @@ const ProjectsSection = () => {
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/space_time",
       previewUrl: "https://moaztello.github.io/space_time/",
+    },
+    {
+      id: 12,
+      title: "IMAGE EDITOR",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">Advanced Image Editor Web App</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A fully interactive and intuitive image editing web application
+              that empowers users to upload and transform their images with
+              precision and ease.
+            </li>
+            <li>
+              This tool is designed with modern UI/UX principles to deliver a
+              seamless editing experience right in the browser—no need for
+              external software.
+            </li>
+            <li>
+              It offers a wide range of editing capabilities to cater to both
+              casual users and creative professionals.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>Image Upload & Preview:</li>
+            <li>
+              <p>
+                Instantly upload and view images with real-time editing
+                feedback.
+              </p>
+            </li>
+            <li>
+              <p>Adjustable Filters:</p>
+              <p className="ml-16 my-2">Saturation</p>
+              <p className="ml-16 my-2">Contrast</p>
+              <p className="ml-16 my-2">Grayscale</p>
+              <p className="ml-16 my-2">Brightness</p>
+              <p className="ml-16 my-2">
+                Hue Rotation (Orange Tint Adjustment) lets users emphasize warm
+                tones for a vibrant aesthetic.
+              </p>
+            </li>
+            <li>
+              <p>Image Transformations:</p>
+              <p className="ml-16 my-2">Flip Vertically (Up-Down)</p>
+              <p className="ml-16 my-2">Flip Horizontally (Left-Right)</p>
+              <p className="ml-16 my-2">
+                Rotate (Clockwise & Counter-Clockwise)
+              </p>
+            </li>
+            <li>
+              <p>Cropping Tool:</p>
+              <p className="ml-16 my-2">
+                Select and cut out specific regions of the image with precision.
+              </p>
+            </li>
+            <li>
+              <p>Download Edited Image:</p>
+              <p className="ml-16 my-2">
+                Export the final edited image in a high quality format.
+              </p>
+            </li>
+            <li>
+              <p>Responsive Design:</p>
+              <p className="ml-16 my-2">
+                Optimized for both desktop and mobile screens, ensuring smooth
+                usability on all devices.
+              </p>
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Delivers a fast, interactive, and component-driven
+              front-end.
+            </li>
+            <li>
+              Tailwind CSS: Enables clean and responsive design with
+              utility-first styling.
+            </li>
+            <li>
+              Built-in React Hooks (useState, useEffect, useRef, useMemo):
+              Manage state, DOM interactions, and performance efficiently.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🎯 Purpose & Impact:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This project reflects a strong grasp of image manipulation,
+              real-time rendering, and modern front-end development.
+            </li>
+            <li>
+              It demonstrates the ability to combine usability with technical
+              depth, providing an accessible solution for image editing that
+              runs entirely in the browser no installations required.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/moaz_image_editor.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/Moaz_Tello_Image_Idetor",
+      previewUrl: "https://moaztello.github.io/Moaz_Tello_Image_Idetor/",
+    },
+    {
+      id: 13,
+      title: "PDF MINIMIZER",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            📄 PDF Note-Taking Assistant Web App
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A React.js-based web application designed to enhance the learning
+              experience by transforming standard PDF files into
+              student-friendly note-taking layouts.
+            </li>
+            <li>
+              This intuitive tool allows users to upload a PDF, automatically
+              minimize its content to the top-left quadrant of each page, and
+              create clean, empty spaces for handwritten or typed notes—ideal
+              for lectures, study sessions, and interactive learning.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              PDF Upload & Preview: Upload any standard PDF file and view the
+              changes in real time.
+            </li>
+            <li>
+              Smart Content Resizing: Automatically reduces the content of each
+              page to the top-left quarter while maintaining readability.
+            </li>
+            <li>
+              Note-Friendly Layout: Leaves the remaining 3/4 of the page
+              blank—perfect for students to jot down thoughts, summaries, or
+              annotations.
+            </li>
+            <li>
+              Download Modified PDF: Export the transformed PDF with its new
+              layout, ready for print or digital annotation.
+            </li>
+            <li>
+              Responsive Design: Seamlessly usable across devices, including
+              tablets and desktops.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Ensures a dynamic and smooth single-page application
+              experience.
+            </li>
+            <li>
+              PDF.js / pdf-lib: Handles reading, editing, and regenerating PDF
+              documents on the client side.
+            </li>
+            <li>
+              Tailwind CSS: Provides clean, responsive, and consistent styling
+              across the app.
+            </li>
+            <li>
+              React Hooks (useState, useEffect, useRef): Manage state,
+              lifecycle, and DOM manipulation effectively.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🎯 Purpose & Impact:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This tool simplifies the process of preparing study-friendly PDFs,
+              saving time for students and educators alike.
+            </li>
+            <li>
+              It showcases practical use of PDF manipulation in the browser,
+              thoughtful UX design for educational needs, and advanced file
+              processing without requiring server-side operations.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/pdf_minimizer.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/mousa_shtewy",
+      previewUrl: "https://moaztello.github.io/mousa_shtewy/",
+    },
+    {
+      id: 14,
+      title: "DINTEST CLINIC",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            🦷 Dental Clinic Management Web App
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A modern React.js-based web application tailored for dental
+              clinics to streamline patient management, enhance service
+              visibility, and optimize daily workflows for doctors and their
+              assistants.
+            </li>
+            <li>
+              This all-in-one dashboard provides structured access to patient
+              records, clinic information, and promotional service content,
+              empowering healthcare professionals to focus more on care and less
+              on paperwork.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Patient Account Management: Doctor assistants can create and
+              manage patient profiles, input treatment details, and update
+              personal and medical information.
+            </li>
+            <li>
+              Doctor&apos;s Daily View: Doctors can easily view a list of
+              scheduled patients for each day, with quick access to their
+              medical histories and current treatment plans.
+            </li>
+            <li>
+              Clinic Overview: Detailed sections providing an overview of the
+              clinic, including doctors&apos; profiles, qualifications, and
+              areas of expertise.
+            </li>
+            <li>
+              Services & Promotions: Display of the clinic&apos;s available
+              treatments and services, with integrated advertisement banners for
+              featured services or seasonal promotions.
+            </li>
+            <li>
+              Responsive & User-Friendly Design: Clean, mobile-friendly UI
+              ensures seamless use on tablets, desktops, or at reception desks.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Front-end library for dynamic and responsive interface
+              development.
+            </li>
+            <li>
+              Tailwind CSS: Rapid styling for consistent and clean layout
+              design.
+            </li>
+            <li>
+              Zustand: Lightweight state management for scalable and efficient
+              app behavior.
+            </li>
+            <li>
+              React Router DOM: Smooth navigation across patient records,
+              dashboards, and info pages.
+            </li>
+            <li>
+              React Icons: Enhances the visual user experience with familiar
+              iconography.
+            </li>
+            <li>
+              React Hooks (useState, useEffect, useRef, useMemo): Power core
+              interactions and optimize performance.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🎯 Purpose & Impact:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This application bridges administrative needs with patient care,
+              helping dental clinics move away from paper-based systems toward a
+              streamlined, digital-first approach.
+            </li>
+            <li>
+              It demonstrates strong UX thinking, solid form and data
+              management, and effective role-based UI behavior for medical
+              workflows.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/dintest_clinic.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/dintest",
+      previewUrl: "https://moaztello.github.io/dintest/",
+    },
+    {
+      id: 15,
+      title: "MUFEED AI",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">
+            🤖 AI Access & Global Payment Platform
+          </p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A full-featured React.js web application that democratizes access
+              to GPT-3.5 by enabling flexible payment options and integrating
+              Telegram for mobile AI interaction.
+            </li>
+            <li>
+              Designed for global users—especially those without access to
+              traditional online payment methods—this platform provides a
+              seamless experience to subscribe, interact, and benefit from
+              powerful AI tools.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              <p>User Account System:</p>
+              <p className="ml-16 my-2">
+                Secure sign-up and login functionality for individual user
+                profiles.
+              </p>
+            </li>
+            <li>
+              <p>Flexible Payment Integration:</p>
+              <p className="ml-16 my-2">
+                Online Payments: Support for PayPal and Mastercard for instant
+                access.
+              </p>
+              <p className="ml-16 my-2">
+                Offline Payments: For users in regions without access to online
+                payment services:
+              </p>
+              <p className="ml-16 my-2">
+                Pay at physical money transfer companies (e.g., Western Union,
+                MoneyGram).
+              </p>
+              <p className="ml-16 my-2">
+                Upload a photo of the receipt for manual verification.
+              </p>
+            </li>
+            <li>
+              <p>Custom Pricing Offers:</p>
+              <p className="ml-16 my-2">
+                View and choose from multiple AI usage packages and promotional
+                offers.
+              </p>
+            </li>
+            <li>
+              <p>Telegram Bot Integration:</p>
+              <p className="ml-16 my-2">
+                Use GPT-3.5 directly from your smartphone via a Telegram bot,
+                ensuring accessibility and ease of use without needing to stay
+                on the website.
+              </p>
+            </li>
+            <li>
+              <p>Community Feedback:</p>
+              <p className="ml-16 my-2">
+                Users can upload reviews and file complaints.
+              </p>
+              <p className="ml-16 my-2">
+                Public review section allows users to read others experiences
+                and build trust.
+              </p>
+            </li>
+            <li>
+              <p>Responsive Design:</p>
+              <p className="ml-16 my-2">
+                Fully optimized for desktop and mobile, making it accessible
+                from any device.
+              </p>
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Modern front-end framework enabling interactive and
+              scalable UIs.
+            </li>
+            <li>
+              Tailwind CSS: Utility-first styling for consistent and
+              mobile-friendly design.
+            </li>
+            <li>Axios: Handles secure API communication.</li>
+            <li>
+              React Router DOM: Enables seamless navigation between user
+              dashboard, reviews, and payment pages.
+            </li>
+            <li>
+              Zustand: Simple yet powerful state management across the app.
+            </li>
+            <li>
+              React Hook Form: Provides robust form handling for payments,
+              uploads, and user feedback.
+            </li>
+            <li>
+              Built-in React Hooks (useState, useEffect, useRef, etc.):
+              Optimized interaction handling and performance.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🎯 Purpose & Impact:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              This project empowers users from underbanked regions to gain
+              access to advanced AI tools through inclusive payment options and
+              mobile-friendly interfaces.
+            </li>
+            <li>
+              It showcases a thoughtful approach to global accessibility,
+              third-party integration (Telegram), secure user management, and
+              community engagement through reviews and support channels.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/mufid_ai.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/newkamal",
+      previewUrl: "https://moaztello.github.io/newkamal/",
+    },
+    {
+      id: 16,
+      title: "XTRAVEL",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">Bus Booking Web App</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A web application designed to streamline the booking process for
+              bus trips across the Syrian Arab Republic.
+            </li>
+            <li>
+              The platform offers bilingual support Arabic and English and
+              integrates electronic payment systems to provide users with a
+              seamless and efficient booking experience.
+            </li>
+            <li>
+              Users can easily search for available bus routes, select their
+              preferred travel times, and secure their tickets online.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Secure Payments: Integrated electronic payment gateway for quick
+              and secure transactions.
+            </li>
+            <li>
+              Real-Time Availability: Users can view real-time bus schedules and
+              seat availability.
+            </li>
+            <li>
+              Responsive Design: Optimized for various screen sizes and devices
+              for easy access from anywhere.
+            </li>
+            <li>
+              🛠 Tech Stack: Built with React.js, ensuring fast rendering, smooth
+              performance.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>React.js: Provides a fast, dynamic user interface.</li>
+            <li>
+              useContext: Ensures efficient state management across components.
+            </li>
+            <li>
+              Zustand: Lightweight state management for better scalability and
+              performance.
+            </li>
+            <li>
+              Firebase: Used for backend services, including data storage and
+              authentication.
+            </li>
+            <li>Axios: Handles API requests efficiently.</li>
+            <li>
+              useRef: Facilitates direct DOM manipulation and better handling of
+              form inputs and other interactive elements.
+            </li>
+            <li>
+              react-icon: Adds icons for a more intuitive user experience.
+            </li>
+            <li>
+              react-router-dom: Manages seamless navigation between pages.
+            </li>
+            <li>
+              useEffect, useState, useMemo: Manage application lifecycle and
+              performance optimizations.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">Challenges:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Implementing secure and reliable electronic payment integration.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/xtravel.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/junior",
+      previewUrl: "https://moaztello.github.io/junior/",
     },
   ];
   const projectsRef = useRef(null);
