@@ -5,6 +5,15 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+
+// export const metadata = {
+//   title: {
+//     default:"Mohemmed Moaz Tello Portfolio",
+//     template:"%s - Moaz Tello Portfolio"
+//   },
+//   description: "moaz tello portfolio",
+// };
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-[#121212] ">

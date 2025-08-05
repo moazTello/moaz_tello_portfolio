@@ -211,7 +211,7 @@ const ProjectsSection = () => {
           <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
           <ul className="list-disc px-2 mt-2 ml-2">
             <li>
-              eact Native (Expo): Cross-platform app development for iOS and
+              React Native (Expo): Cross-platform app development for iOS and
               Android with native performance.
             </li>
             <li>Expo Router: Simplifies and scales navigation structure.</li>
