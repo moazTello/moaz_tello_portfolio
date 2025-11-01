@@ -528,6 +528,112 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
+      title: "Falfilgy",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">Restaurant Web App</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A web application designed to Show the Restaurant Meals Menu.
+            </li>
+            <li>
+              The platform offers bilingual support Arabic and English and
+              integrates electronic payment systems to provide users with a
+              seamless and efficient booking experience.
+            </li>
+            <li>
+              Users can easily search for available bus routes, select their
+              preferred travel times, and secure their tickets online.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Real-Time Availability: Users can view real-time Restaurant Meals
+              Menu.
+            </li>
+            <li>
+              Responsive Design: Optimized for various screen sizes and devices
+              for easy access from anywhere.
+            </li>
+            <li>
+              🛠 Tech Stack: Built with React.js, ensuring fast rendering, smooth
+              performance.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>React.js: Provides a fast, dynamic user interface.</li>
+            <li>
+              react-router-dom: Manages seamless navigation between pages.
+            </li>
+            <li>
+              useState: Manage application lifecycle and performance
+              optimizations.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/falafilgy.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/falafilgy",
+      previewUrl: "https://moaztello.github.io/falafilgy",
+    },
+    {
+      id: 5,
+      title: "Al-Mahaba",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">Restaurant Web App</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              A web application designed to Show the Restaurant Meals Menu.
+            </li>
+            <li>
+              The platform offers bilingual support Arabic and English and
+              integrates electronic payment systems to provide users with a
+              seamless and efficient booking experience.
+            </li>
+            <li>
+              Users can easily search for available bus routes, select their
+              preferred travel times, and secure their tickets online.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Real-Time Availability: Users can view real-time Restaurant Meals
+              Menu.
+            </li>
+            <li>
+              Responsive Design: Optimized for various screen sizes and devices
+              for easy access from anywhere.
+            </li>
+            <li>
+              🛠 Tech Stack: Built with React.js, ensuring fast rendering, smooth
+              performance.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>React.js: Provides a fast, dynamic user interface.</li>
+            <li>
+              react-router-dom: Manages seamless navigation between pages.
+            </li>
+            <li>
+              useState: Manage application lifecycle and performance
+              optimizations.
+            </li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/al-mahaba.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/moazTello/al_mahaba",
+      previewUrl: "https://moaztello.github.io/al_mahaba",
+    },
+    {
+      id: 7,
       title: "WAYGO",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -622,7 +728,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/waygo_page",
     },
     {
-      id: 6,
+      id: 8,
       title: "YAMAN CACHIER",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -712,7 +818,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/yaman_project/",
     },
     {
-      id: 7,
+      id: 9,
       title: "TELLO TOK",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -799,7 +905,7 @@ const ProjectsSection = () => {
       fileName: "Tello.apk",
     },
     {
-      id: 8,
+      id: 10,
       title: "MOAZ CHAT APP",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -881,7 +987,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello-chat-app.onrender.com/",
     },
     {
-      id: 9,
+      id: 11,
       title: "WASSELNY",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -983,7 +1089,7 @@ const ProjectsSection = () => {
       previewUrl: "/",
     },
     {
-      id: 10,
+      id: 12,
       title: "FUSHA",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1076,7 +1182,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/demo/",
     },
     {
-      id: 11,
+      id: 13,
       title: "SPACE TIME",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1146,7 +1252,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/space_time/",
     },
     {
-      id: 12,
+      id: 14,
       title: "IMAGE EDITOR",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1250,7 +1356,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/Moaz_Tello_Image_Idetor/",
     },
     {
-      id: 13,
+      id: 15,
       title: "PDF MINIMIZER",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1333,7 +1439,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/mousa_shtewy/",
     },
     {
-      id: 14,
+      id: 16,
       title: "DINTEST CLINIC",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1429,7 +1535,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/dintest/",
     },
     {
-      id: 15,
+      id: 17,
       title: "MUFEED AI",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1557,7 +1663,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello.github.io/newkamal/",
     },
     {
-      id: 16,
+      id: 18,
       title: "XTRAVEL",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
