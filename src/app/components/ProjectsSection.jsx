@@ -133,7 +133,7 @@ const ProjectsSection = () => {
       image: "/images/projects/green_syria.png",
       tag: ["All", "Web", "protect"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/green_syria/",
+      previewUrl: "https://eng-moaz-tello.github.io/green_syria/",
     },
     {
       id: 2,
@@ -278,7 +278,7 @@ const ProjectsSection = () => {
       image: "/images/projects/green_syria_app.png",
       tag: ["All", "Mobile", "Download"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      // previewUrl: "https://moaztello.github.io/green_syria/",
+      // previewUrl: "https://eng-moaz-tello.github.io/green_syria/",
       fileName: "green_syria_test_server.apk",
     },
     {
@@ -408,7 +408,7 @@ const ProjectsSection = () => {
       image: "/images/projects/rasheed.png",
       tag: ["All", "Web", "protect"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/rasheed/",
+      previewUrl: "https://eng-moaz-tello.github.io/rasheed/",
     },
     {
       id: 4,
@@ -523,7 +523,7 @@ const ProjectsSection = () => {
       image: "/images/projects/rasheed_app.png",
       tag: ["All", "Mobile", "Download"],
       // gitUrl: "https://github.com/moazTello/space_time",
-      // previewUrl: "https://moaztello.github.io/green_syria/",
+      // previewUrl: "https://eng-moaz-tello.github.io/green_syria/",
       fileName: "rashed_test_server.apk",
     },
     {
@@ -577,7 +577,7 @@ const ProjectsSection = () => {
       image: "/images/projects/falafilgy.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/falafilgy",
-      previewUrl: "https://moaztello.github.io/falafilgy",
+      previewUrl: "https://eng-moaz-tello.github.io/falafilgy",
     },
     {
       id: 5,
@@ -630,7 +630,7 @@ const ProjectsSection = () => {
       image: "/images/projects/al-mahaba.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/al_mahaba",
-      previewUrl: "https://moaztello.github.io/al_mahaba",
+      previewUrl: "https://eng-moaz-tello.github.io/al_mahaba",
     },
     {
       id: 7,
@@ -725,7 +725,7 @@ const ProjectsSection = () => {
       image: "/images/projects/way_go_group.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/waygo_page",
-      previewUrl: "https://moaztello.github.io/waygo_page",
+      previewUrl: "https://eng-moaz-tello.github.io/waygo_page",
     },
     {
       id: 8,
@@ -815,7 +815,7 @@ const ProjectsSection = () => {
       image: "/images/projects/yaman_cashier.png",
       tag: ["All", "Web", "protect"],
       gitUrl: "https://github.com/moazTello/yaman_project",
-      previewUrl: "https://moaztello.github.io/yaman_project/",
+      previewUrl: "https://eng-moaz-tello.github.io/yaman_project/",
     },
     {
       id: 9,
@@ -1179,7 +1179,7 @@ const ProjectsSection = () => {
       image: "/images/projects/fusha.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/demo",
-      previewUrl: "https://moaztello.github.io/demo/",
+      previewUrl: "https://eng-moaz-tello.github.io/demo/",
     },
     {
       id: 13,
@@ -1249,7 +1249,7 @@ const ProjectsSection = () => {
       image: "/images/projects/space_time.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/space_time",
-      previewUrl: "https://moaztello.github.io/space_time/",
+      previewUrl: "https://eng-moaz-tello.github.io/space_time/",
     },
     {
       id: 14,
@@ -1353,7 +1353,7 @@ const ProjectsSection = () => {
       image: "/images/projects/moaz_image_editor.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/Moaz_Tello_Image_Idetor",
-      previewUrl: "https://moaztello.github.io/Moaz_Tello_Image_Idetor/",
+      previewUrl: "https://eng-moaz-tello.github.io/Moaz_Tello_Image_Idetor/",
     },
     {
       id: 15,
@@ -1436,7 +1436,7 @@ const ProjectsSection = () => {
       image: "/images/projects/pdf_minimizer.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/mousa_shtewy",
-      previewUrl: "https://moaztello.github.io/mousa_shtewy/",
+      previewUrl: "https://eng-moaz-tello.github.io/mousa_shtewy/",
     },
     {
       id: 16,
@@ -1532,7 +1532,7 @@ const ProjectsSection = () => {
       image: "/images/projects/dintest_clinic.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/dintest",
-      previewUrl: "https://moaztello.github.io/dintest/",
+      previewUrl: "https://eng-moaz-tello.github.io/dintest/",
     },
     {
       id: 17,
@@ -1660,7 +1660,7 @@ const ProjectsSection = () => {
       image: "/images/projects/mufid_ai.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/newkamal",
-      previewUrl: "https://moaztello.github.io/newkamal/",
+      previewUrl: "https://eng-moaz-tello.github.io/newkamal/",
     },
     {
       id: 18,
@@ -1735,7 +1735,7 @@ const ProjectsSection = () => {
       image: "/images/projects/xtravel.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/moazTello/junior",
-      previewUrl: "https://moaztello.github.io/junior/",
+      previewUrl: "https://eng-moaz-tello.github.io/junior/",
     },
   ];
   const projectsRef = useRef(null);
