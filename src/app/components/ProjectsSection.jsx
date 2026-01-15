@@ -634,6 +634,110 @@ const ProjectsSection = () => {
     },
     {
       id: 7,
+      title: "Ghalia Khlefawy Portfolio",
+      description: (
+        <div className="flex w-full md:pl-4 flex-col">
+          <p className="mt-4 text-primary-500">A Personal Portfolio</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              modern, responsive portfolio and agency web template crafted to
+              showcase personal brand, projects, services, and professional
+              strengths in a clean and visually compelling way.
+            </li>
+            <li>
+              This website template is designed with a focus on simplicity and
+              aesthetic appeal, enabling developers, designers, and freelancers
+              to present their work effectively.
+            </li>
+            <li>
+              The layout highlights key sections such as featured projects,
+              technologies used, skill sets, and contact information to provide
+              visitors with a complete overview of your professional profile.
+            </li>
+            <li>
+              Built with modern web standards, this template ensures
+              compatibility across different devices and screen sizes, making
+              your portfolio accessible and engaging on mobile, tablet, and
+              desktop.
+            </li>
+            <li>
+              Its structure emphasizes readability, intuitive navigation, and
+              polished design elements that help create a strong first
+              impression for potential clients or employers.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">✨ Key Features:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Responsive Layout: Fully optimized for seamless viewing on all
+              screen sizes and devices.
+            </li>
+            <li>
+              Project Showcase: Beautifully arranged sections to highlight
+              featured work and case studies.
+            </li>
+            <li>
+              Service Presentation: Clean content blocks to display skills,
+              services, or offerings.
+            </li>
+            <li>
+              Modern UI/UX: Elegant design with attention to whitespace,
+              typography, and visual hierarchy.
+            </li>
+            <li>
+              Smooth Navigation: Easy scrolling and section transitions for
+              enhanced user experience.
+            </li>
+            <li>
+              SEO-Friendly Structure: Semantic HTML layout prepared for search
+              engine visibility.
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🛠 Tech Stack:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              React.js: Component-based architecture for building fast,
+              scalable, and interactive user interfaces
+            </li>
+            <li>
+              Vite: Modern build tool providing ultra-fast development server
+              and optimized production builds
+            </li>
+            <li>
+              JavaScript ES6+: Clean and maintainable code with modern syntax
+            </li>
+            <li>HTML5 & CSS3: Semantic structure and responsive styling</li>
+            <li>
+              Responsive Design: Optimized layouts for desktop, tablet, and
+              mobile devices
+            </li>
+            <li>
+              GitHub Pages: Deployed and hosted for easy access and live preview
+            </li>
+            <li>
+              Modern UI/UX Practices: Focus on clarity, readability, and smooth
+              user experience
+            </li>
+          </ul>
+          <p className="mt-4 text-slate-100">🎯 Ideal For:</p>
+          <ul className="list-disc px-2 mt-2 ml-2">
+            <li>
+              Personal portfolios for developers, designers, and freelancers.
+            </li>
+            <li>
+              Agency landing pages with project highlights and service offerings
+            </li>
+            <li>Creative CV websites to impress recruiters and clients.</li>
+          </ul>
+        </div>
+      ),
+      image: "/images/projects/moaz_tello_repo.png",
+      tag: ["All", "Web", "protect"],
+      gitUrl: "/",
+      previewUrl: "https://eng-moaz-tello.github.io/moaz_tello_repo",
+    },
+    {
+      id: 8,
       title: "WAYGO",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -728,7 +832,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/waygo_page",
     },
     {
-      id: 8,
+      id: 9,
       title: "YAMAN CACHIER",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -818,7 +922,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/yaman_project/",
     },
     {
-      id: 9,
+      id: 10,
       title: "TELLO TOK",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -905,7 +1009,7 @@ const ProjectsSection = () => {
       fileName: "Tello.apk",
     },
     {
-      id: 10,
+      id: 11,
       title: "MOAZ CHAT APP",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -987,7 +1091,7 @@ const ProjectsSection = () => {
       previewUrl: "https://moaztello-chat-app.onrender.com/",
     },
     {
-      id: 11,
+      id: 12,
       title: "WASSELNY",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1089,7 +1193,7 @@ const ProjectsSection = () => {
       previewUrl: "/",
     },
     {
-      id: 12,
+      id: 13,
       title: "FUSHA",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1182,7 +1286,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/demo/",
     },
     {
-      id: 13,
+      id: 14,
       title: "SPACE TIME",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1252,7 +1356,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/space_time/",
     },
     {
-      id: 14,
+      id: 15,
       title: "IMAGE EDITOR",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1356,7 +1460,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/Moaz_Tello_Image_Idetor/",
     },
     {
-      id: 15,
+      id: 16,
       title: "PDF MINIMIZER",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1439,7 +1543,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/mousa_shtewy/",
     },
     {
-      id: 16,
+      id: 17,
       title: "DINTEST CLINIC",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1535,7 +1639,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/dintest/",
     },
     {
-      id: 17,
+      id: 18,
       title: "MUFEED AI",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
@@ -1663,7 +1767,7 @@ const ProjectsSection = () => {
       previewUrl: "https://eng-moaz-tello.github.io/newkamal/",
     },
     {
-      id: 18,
+      id: 19,
       title: "XTRAVEL",
       description: (
         <div className="flex w-full md:pl-4 flex-col">
