@@ -45,13 +45,11 @@ const EmailSection = () => {
         }),
       });
       if (response.status === 200) {
-        console.log("Message sent.");
         setEmailSubmitted(true);
       }
     } catch (error) {
       console.log(error);
     }
-
   };
   const variants = {
     initial: { opacity: 0, scale: 0.5, y: 50 },
