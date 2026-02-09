@@ -5,6 +5,8 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
+import MediaSection from "./components/Media";
+
 
 // export const metadata = {
 //   title: {
@@ -23,6 +25,7 @@ export default function Home() {
         <AboutSection id="#about" />
         <AchievementsSection />
         <ProjectsSection />
+        <MediaSection/>
         <EmailSection />
       </div>
       <Footer />

@@ -15,12 +15,14 @@ const geistMono = localFont({
 export const metadata = {
   metadataBase: new URL("https://moaz-tello-portfolio.vercel.app"),
   title: {
-    default: "Moaz Tello | Full-Stack Developer",
+    default: "Moaz Tello | Full-Stack Developer | محمد معاذ تللو",
     template: "%s | Moaz Tello",
   },
   description:
     "Moaz Tello هو Full-Stack Developer متخصص بـ React, Next.js, Node.js و React Native. أبني تطبيقات ويب وموبايل حديثة وقابلة للتوسع.",
   keywords: [
+    "محمد معاذ تللو",
+    "معاذ تللو",
     "Moaz Tello",
     "Full Stack Developer",
     "React Developer",
@@ -40,7 +42,7 @@ export const metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Moaz Tello | Full-Stack Developer",
+    title: "Moaz Tello | Full-Stack Developer | محمد معاذ تللو",
     description:
       "Portfolio of Moaz Tello – Full-Stack Developer specialized in modern web & mobile apps.",
     url: "/",
@@ -62,7 +64,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moaz Tello | Full-Stack Developer",
+    title: "Moaz Tello | Full-Stack Developer | محمد معاذ تللو",
     description:
       "Full-Stack Developer specialized in React, Next.js, Node.js & React Native.",
     images: ["/og.png"],
