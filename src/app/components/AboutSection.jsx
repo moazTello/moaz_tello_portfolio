@@ -98,15 +98,41 @@ const AboutSection = () => {
             <p className="text-md text-primary-500 font-bold">GrayScale</p>
             <p className="text-sm text-[#ADB7BE]">2020 - 2021</p>
           </li>
-          <li className="mt-5">
+          <li className="mt-2">
             <p className="text-lg font-semibold">React.js Developer</p>
             <p className="text-md text-primary-500 font-bold">Orkabit</p>
             <p className="text-sm text-[#ADB7BE]">2023 - 2025</p>
           </li>
-          <li className="mt-5">
-            <p className="text-lg font-semibold">React.js, React Native, Next.js</p>
-            <p className="text-md text-primary-500 font-bold">Totol Media</p>
+          <li className="mt-2">
+            <p className="text-lg font-semibold">
+              React.js, React Native, Next.js
+            </p>
+            <p className="text-md text-primary-500 font-bold">
+              Totol Media (Part-time)
+            </p>
             <p className="text-sm text-[#ADB7BE]">2025 - Present</p>
+          </li>
+          <li className="mt-2">
+            <p className="text-lg font-semibold">Front-end Developer</p>
+            <p className="text-md text-primary-500 font-bold">
+              Damascus Governorate (Full-time)
+            </p>
+            <p className="text-sm text-[#ADB7BE]">2026 - Present</p>
+          </li>
+        </ul>
+      ),
+    },
+    {
+      id: "trainer",
+      title: "Trainer",
+      content: (
+        <ul className="list-disc text-[#edf1f4] pl-2">
+          <li>
+            <p className="text-lg font-semibold">
+              React.js Trainer
+            </p>
+            <p className="text-md text-primary-500 font-bold">Space Technology</p>
+            <p className="text-sm text-[#ADB7BE]">2026 - Present</p>
           </li>
         </ul>
       ),
@@ -161,6 +187,12 @@ const AboutSection = () => {
             >
               Certifications
             </TabButton> */}
+              <TabButton
+              selectTab={() => handleTabChange("trainer")}
+              active={tab === "trainer"}
+            >
+              Trainer
+            </TabButton>
           </div>
           <div className="mt-8 mb-10 md:mb-0">
             {TAB_DATA.find((t) => t.id === tab).content}
