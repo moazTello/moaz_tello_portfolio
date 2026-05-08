@@ -605,7 +605,7 @@ export const ProjectData = [
     image: "/images/projects/al-mahaba.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/moazTello/al_mahaba",
-    previewUrl: "https://eng-moaz-tello.github.io/al_mahaba",
+    previewUrl: "https://eng-moaz-tello.github.io/al-mahaba/",
   },
   {
     id: 7,
