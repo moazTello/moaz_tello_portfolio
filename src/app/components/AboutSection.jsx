@@ -57,9 +57,9 @@ const AboutSection = () => {
               <li>Node.js</li>
               <li>NestJS</li>
               <li>Express.js</li>
+              <li>MongoDB</li>
             </ul>
             <ul className="list-disc pl-2 mr-8">
-              <li>MongoDB</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>
               <li>Mongoose</li>
@@ -67,12 +67,13 @@ const AboutSection = () => {
               <li>Docker</li>
               <li>Socket.io</li>
               <li>Stripe / Cloudinary</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
           <ul className="list-disc pl-2 mr-8">
-            <li>Tailwind</li>
-            <li>Bootstrap</li>
-            <li>HTML / CSS</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Redux</li>
             <li>Zustand</li>
             <li>NLP</li>
@@ -143,9 +144,7 @@ const AboutSection = () => {
             <p className="text-sm text-[#ADB7BE]">2023 - 2025</p>
           </li>
           <li className="mt-2">
-            <p className="text-lg font-semibold">
-              React Developer
-            </p>
+            <p className="text-lg font-semibold">React Developer</p>
             <p className="text-md text-primary-500 font-bold">
               Totol Media (Part-time)
             </p>
