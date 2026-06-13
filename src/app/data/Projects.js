@@ -516,7 +516,11 @@ export const ProjectData = [
       <div className="flex w-full md:pl-4 flex-col">
         <p className="mt-4 text-primary-500">Restaurant Web App</p>
         <ul className="list-disc px-2 mt-2 ml-2">
-          <li>A web application designed to Show the Restaurant Meals Menu.</li>
+          <li>
+            A restaurant web app for a falafel and snacks shop, featuring a
+            digital menu with bilingual support (Arabic/English) and a smooth
+            browsing experience across all devices.
+          </li>
           <li>
             The platform offers bilingual support Arabic and English and
             integrates electronic payment systems to provide users with a
@@ -565,7 +569,11 @@ export const ProjectData = [
       <div className="flex w-full md:pl-4 flex-col">
         <p className="mt-4 text-primary-500">Restaurant Web App</p>
         <ul className="list-disc px-2 mt-2 ml-2">
-          <li>A web application designed to Show the Restaurant Meals Menu.</li>
+          <li>
+            A restaurant web app for a traditional Syrian cuisine restaurant,
+            showcasing authentic dishes including classic heritage meals, with a
+            clean bilingual menu interface..
+          </li>
           <li>
             The platform offers bilingual support Arabic and English and
             integrates electronic payment systems to provide users with a
@@ -718,8 +726,9 @@ export const ProjectData = [
         <p className="mt-4 text-primary-500">Bus Booking Web App</p>
         <ul className="list-disc px-2 mt-2 ml-2">
           <li>
-            A web application designed to streamline the booking process for bus
-            trips across the Syrian Arab Republic.
+            An advanced intercity bus booking platform — an evolved version of
+            XTRAVEL — with enhanced UI, improved booking flow, and bilingual
+            support for Arabic and English users.
           </li>
           <li>
             The platform offers bilingual support Arabic and English and
@@ -1724,8 +1733,9 @@ export const ProjectData = [
         <p className="mt-4 text-primary-500">Bus Booking Web App</p>
         <ul className="list-disc px-2 mt-2 ml-2">
           <li>
-            A web application designed to streamline the booking process for bus
-            trips across the Syrian Arab Republic.
+            An intercity bus booking web app for Syria, allowing users to search
+            routes, view schedules, and book tickets online with secure payment
+            integration.
           </li>
           <li>
             The platform offers bilingual support Arabic and English and

@@ -90,7 +90,8 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 1500,
-                "Artificial Intelligence Engineer background in creating and LinkedIn\nexecuting innovative software solutions to enhance business\nproductivity. Highly experienced in all aspects of the software\ndevelopment lifecycle, from concept through to development GitHub\nand delivery, Experience in providing successful solutions and\nsolving problems in less time and less effort.",
+                // "Artificial Intelligence Engineer background in creating and LinkedIn\nexecuting innovative software solutions to enhance business\nproductivity. Highly experienced in all aspects of the software\ndevelopment lifecycle, from concept through to development GitHub\nand delivery, Experience in providing successful solutions and\nsolving problems in less time and less effort.",
+                "AI-graduated Full-Stack & Mobile Developer with 7+ years of experience \n building modern web and mobile applications. \n From architecting NestJS backends to crafting pixel-perfect React and React Native interfaces \n I cover the full product lifecycle. \n Currently building PortfolioCraft, a SaaS platform helping developers showcase their work professionally."
               ]}
               wrapper="p"
               speed={80}

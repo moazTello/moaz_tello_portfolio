@@ -12,7 +12,7 @@ const AboutSection = () => {
       title: "Skills",
       content: (
         <div className="flex text-[#edf1f4] w-full">
-          <div className="flex flex-col md:flex-row">
+          {/* <div className="flex flex-col md:flex-row">
             <ul className="list-disc pl-2 mr-8">
               <li>NLP</li>
               <li>Data Analysis</li>
@@ -21,6 +21,8 @@ const AboutSection = () => {
               <li>React.js</li>
               <li>React Native</li>
               <li>Node.js</li>
+              <li>Nest.js</li>
+              <li>TypeScript</li>
             </ul>
             <ul className="list-disc pl-2 mr-8">
               <li>Express.js</li>
@@ -30,6 +32,8 @@ const AboutSection = () => {
               <li>Redux</li>
               <li>Zustand</li>
               <li>HTML</li>
+              <li>Docker</li>
+              <li>Socket.io</li>
             </ul>
           </div>
           <ul className="list-disc pl-2 mr-8">
@@ -40,6 +44,41 @@ const AboutSection = () => {
             <li>Mongoose</li>
             <li>Tailwind</li>
             <li>Bootstrap</li>
+            <li>Stripe / Cloudinary</li>
+          </ul>
+        </div> */}
+          <div className="flex flex-col md:flex-row">
+            <ul className="list-disc pl-2 mr-8">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>React Native</li>
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>NestJS</li>
+              <li>Express.js</li>
+            </ul>
+            <ul className="list-disc pl-2 mr-8">
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>MySQL</li>
+              <li>Mongoose</li>
+              <li>Sequelize</li>
+              <li>Docker</li>
+              <li>Socket.io</li>
+              <li>Stripe / Cloudinary</li>
+            </ul>
+          </div>
+          <ul className="list-disc pl-2 mr-8">
+            <li>Tailwind</li>
+            <li>Bootstrap</li>
+            <li>HTML / CSS</li>
+            <li>Redux</li>
+            <li>Zustand</li>
+            <li>NLP</li>
+            <li>Machine Learning</li>
+            <li>Neural Networks</li>
+            <li>Data Analysis</li>
           </ul>
         </div>
       ),
@@ -60,7 +99,7 @@ const AboutSection = () => {
           </li>
           <li className="mt-5">
             <p className="text-lg font-semibold">
-              React.js, Java Script, HTML, CSS
+              Frontend Development Bootcamp
             </p>
             <p className="text-md text-primary-500 font-bold">New Horizons</p>
             <p className="text-sm text-[#ADB7BE]">2020 - 2023</p>
@@ -105,7 +144,7 @@ const AboutSection = () => {
           </li>
           <li className="mt-2">
             <p className="text-lg font-semibold">
-              React.js, React Native, Next.js
+              React Developer
             </p>
             <p className="text-md text-primary-500 font-bold">
               Totol Media (Part-time)
@@ -128,10 +167,10 @@ const AboutSection = () => {
       content: (
         <ul className="list-disc text-[#edf1f4] pl-2">
           <li>
-            <p className="text-lg font-semibold">
-              React.js Trainer
+            <p className="text-lg font-semibold">React.js Trainer</p>
+            <p className="text-md text-primary-500 font-bold">
+              Space Technology
             </p>
-            <p className="text-md text-primary-500 font-bold">Space Technology</p>
             <p className="text-sm text-[#ADB7BE]">2026 - Present</p>
           </li>
         </ul>
@@ -187,7 +226,7 @@ const AboutSection = () => {
             >
               Certifications
             </TabButton> */}
-              <TabButton
+            <TabButton
               selectTab={() => handleTabChange("trainer")}
               active={tab === "trainer"}
             >
